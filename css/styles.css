@@ -1,0 +1,114 @@
+#title {
+  background-color: #AED9A3;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.titleText {
+  font-family: 'Kosugi Maru', sans-serif;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.titleButtons {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  font-family: 'Kosugi Maru', sans-serif;
+  padding: 8% 15%;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 5%;
+  line-height: 1.5;
+}
+
+.icon {
+  color: #523720;
+  transition: all ease-in-out 200ms;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #301B10;
+}
+
+/*Testimonials*/
+#testimonials {
+  text-align: center;
+  background-color: #F2CAA7;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.testimonial-picture {
+  border-radius: 100%;
+  width: 20%;
+  margin: 50px 20px 10px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*Press*/
+#press {
+  background-color: #F2CAA7;
+  text-align: center;
+  padding: 0 15% 3%;
+}
+
+.press-logo {
+  width: 25%;
+  margin: 0 2% 0 2%;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+    text-align: center;
+}
+
+.priceCard{
+  padding: 3% 2%;
+
+}
