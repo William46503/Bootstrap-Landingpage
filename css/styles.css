@@ -43,6 +43,7 @@ p {
 .titleText {
   font-family: 'Kosugi Maru', sans-serif;
   line-height: 1.5;
+  margin:auto
 }
 
 /* Buttons */
@@ -106,9 +107,26 @@ p {
 #pricing{
   padding: 100px;
     text-align: center;
+    line-height: 1.5;
 }
 
+.pricingText{
+  width: 60%;
+  margin: 0 auto;
+}
 .priceCard{
   padding: 3% 2%;
+  font-family: 'Kosugi Maru', sans-serif;
+}
 
+/* Call to Action */
+#cta{
+  background-color: #AED9A3;
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.ctaButton{
+  width: 20%;
+  margin:2rem auto 0;
 }
