@@ -1,15 +1,6 @@
-#title {
-  background-color: #AED9A3;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: bold;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -18,7 +9,7 @@ p {
 
 /* Navigation Bar */
 .navbar {
-  padding: 0 0 4rem 0;
+  padding-left: 4rem;
 }
 
 .navbar-brand {
@@ -40,10 +31,19 @@ p {
   padding: 2% 10%;
 }
 
+/* Title Section */
+#title {
+  background-color: #AED9A3;
+}
+
+.titlePic{
+  box-shadow: 5px 5px 3px black;
+}
+
 .titleText {
   font-family: 'Kosugi Maru', sans-serif;
   line-height: 1.5;
-  margin:auto
+  margin: auto
 }
 
 /* Buttons */
@@ -86,6 +86,12 @@ p {
   margin: 50px 20px 10px 20px;
 }
 
+.testimonialHeading {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
 .carousel-item {
   padding: 7% 15%;
 }
@@ -99,34 +105,61 @@ p {
 
 .press-logo {
   width: 25%;
-  margin: 0 2% 0 2%;
+  margin: 0 2%;
 }
 
 /* Pricing */
-
-#pricing{
-  padding: 100px;
-    text-align: center;
-    line-height: 1.5;
+#pricing {
+  padding: 100px 100px 50px;
+  text-align: center;
+  line-height: 1.5;
 }
 
-.pricingText{
+.pricingText {
   width: 60%;
   margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
 }
-.priceCard{
+
+.priceCard {
   padding: 3% 2%;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
+.priceTag {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
 /* Call to Action */
-#cta{
+#cta {
   background-color: #AED9A3;
   text-align: center;
   padding: 4% 15%;
 }
 
-.ctaButton{
-  width: 20%;
-  margin:2rem auto 0;
+.ctaHeading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.ctaButton {
+  margin: 3% 3% 0 0;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15% 5%;
+}
+
+.footerIcon {
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+#footer p{
+  font-size: 0.5rem;
 }
