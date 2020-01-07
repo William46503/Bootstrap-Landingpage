@@ -116,9 +116,10 @@ p {
 }
 
 .pricingText {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kosugi Maru','Montserrat', sans-serif;
+  line-height: 2;
 }
 
 .priceCard {
@@ -162,4 +163,8 @@ p {
 
 #footer p{
   font-size: 0.5rem;
+}
+
+#footer a{
+  text-decoration: none;
 }
